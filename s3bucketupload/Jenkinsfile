@@ -9,7 +9,7 @@ pipeline {
 			}
 	    stage('upload to s3 bucket'){
 	    	steps{
-	    		withAWS(region:'us=west-2',credentials:'jenkinsaccesskey') {
+	    		withAWS(region:'us-west-2',credentials:'jenkinsaccesskey') {
 	    		s3Upload(bucket: 'static-jenkins-pipeline-anukriti1', pathStyleAccessEnabled: false, includePathPattern: 'index.html')
 	    		}
 	    	}
