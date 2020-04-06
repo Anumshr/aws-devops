@@ -1,0 +1,11 @@
+pipeline {
+	agent any
+	stages {
+		stage('Check lint'){
+			steps{
+				sh 'tidy -q -e *.html'
+
+			}
+		}
+	}
+}
