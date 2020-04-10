@@ -1,0 +1,11 @@
+go to
+
+https://updates.jenkins.io/download/plugins/github-api/
+
+download GitHub API to version 1.106
+
+then go to you jenkins > manage plugins > advanced
+
+upload the plugin file you have download
+
+restart jenkins and all will be good
