@@ -1,4 +1,4 @@
-# Install Nginx
+# Install Nginx on local host
 - hosts: localhost
   connection: local
   become: True
